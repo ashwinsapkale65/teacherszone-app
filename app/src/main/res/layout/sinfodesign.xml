@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="#F3B7B7"
+            android:gravity="center_horizontal"
+            android:text="Ashwin Sapkale"
+            android:textSize="20dp"
+            android:id="@+id/t1"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="#89C887"
+            android:id="@+id/t2"
+            android:gravity="center_horizontal"
+            android:text="25"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:text="Delete"
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

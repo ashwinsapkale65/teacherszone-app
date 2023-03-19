@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        >
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:background="#F3B7B7"
+            android:gravity="center_horizontal"
+            android:text="Ashwin Sapkale"
+            android:textSize="20dp"
+            android:id="@+id/vname"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#89C887"
+            android:id="@+id/vroll"
+            android:gravity="center_horizontal"
+            android:text="250"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

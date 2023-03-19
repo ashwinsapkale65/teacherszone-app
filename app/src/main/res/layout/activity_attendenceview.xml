@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".MainActivity">
+
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+
+      android:id="@+id/cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <EditText
+          android:id="@+id/vclass"
+          android:layout_width="200dp"
+          android:inputType="number"
+          android:layout_height="match_parent"
+          android:hint="Enter Class"></EditText>
+
+      <EditText
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:id="@+id/vdiv"
+          android:inputType="textCapCharacters"
+          android:hint="Enter Div">
+      </EditText>
+
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:layout_below="@+id/cardview"
+
+      android:id="@+id/cardview2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:background="@drawable/borderedittext"
+
+        android:textAlignment="center"
+          android:textColor="@color/black"
+
+        android:text="DATE : - "
+          android:gravity="center_horizontal" />
+
+      <EditText
+          android:id="@+id/vdate"
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:background="@drawable/borderedittext"
+
+
+          android:hint="Enter Format(dd-MM-yyyy)"
+
+          android:textSize="12dp"></EditText>
+
+
+
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="25dp"
+      android:layout_below="@+id/cardview2"
+
+
+      android:id="@+id/cardview3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:text="Selected Student Type"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:background="@drawable/borderedittext"
+          android:gravity="center_horizontal"></TextView>
+      <Spinner
+          android:id="@+id/spinner"
+          android:layout_width="180dp"
+          android:layout_height="match_parent"
+
+
+          ></Spinner>
+
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="35dp"
+      android:layout_below="@+id/cardview3"
+
+
+      android:id="@+id/cardview4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:id="@+id/vview"
+         android:textAlignment="center"
+         android:background="@drawable/ic_launcher_background"
+         android:text="VIEW REPORT"
+         android:layout_height="match_parent"></Button>
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_below="@+id/cardview4"
+
+
+      android:id="@+id/cardview5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:layout_width="260dp"
+          android:textColor="@color/purple_200"
+          android:layout_height="match_parent"
+        android:text="NAME"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+          android:background="@drawable/border"
+          android:textSize="20dp"
+        ></TextView>
+      <TextView
+          android:layout_width="match_parent"
+          android:text="ROLL NO"
+          android:layout_gravity="center"
+          android:textAlignment="center"
+          android:textSize="20dp"
+          android:textColor="@color/purple_200"
+          android:background="@drawable/border"
+          android:layout_height="match_parent"></TextView>
+
+
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+    android:layout_below="@+id/cardview5"
+    android:id="@+id/recview2"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+</RelativeLayout>

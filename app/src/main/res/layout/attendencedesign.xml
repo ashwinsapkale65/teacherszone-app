@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Ashwin"
+            android:id="@+id/t1"
+            android:textAlignment="center"
+            android:background="@drawable/borderedittext"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"></TextView>
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="56"
+            android:textAlignment="center"
+            android:background="@drawable/borderedittext"
+            android:textSize="20dp"></TextView>
+
+        <Button
+            android:layout_width= "50dp"
+            android:layout_height="match_parent"
+            android:text="P"
+            android:textAlignment="center"
+
+            android:id="@+id/P"
+            android:gravity="center_horizontal">
+
+        </Button>
+
+        <Button
+            android:layout_width= "50dp"
+            android:layout_height="match_parent"
+            android:text="A"
+
+            android:textAlignment="center"
+
+            android:id="@+id/A"
+            android:gravity="center_horizontal">
+
+        </Button>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="PR"
+
+            android:background="@drawable/dashbutton"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:id="@+id/t3"
+            />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+
+
+            android:background="@drawable/dashbutton"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:id="@+id/t4"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

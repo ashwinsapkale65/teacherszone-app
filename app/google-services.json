@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "885995791510",
+    "firebase_url": "https://teacherszone-d333e-default-rtdb.firebaseio.com",
+    "project_id": "teacherszone-d333e",
+    "storage_bucket": "teacherszone-d333e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885995791510:android:664d77fb63923b6b334eb7",
+        "android_client_info": {
+          "package_name": "com.example.teacherszone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885995791510-5ed2pm4msjoikva2ns5nmb970hlrboh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.teacherszone",
+            "certificate_hash": "8584c357acfee2e71099b4fa970df0f55666d290"
+          }
+        },
+        {
+          "client_id": "885995791510-ejfvisom3pidrjis2mefjn486mrl2b69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKxPgsWe_pFCo2fpZzbIOchs2XpgTYFnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885995791510-ejfvisom3pidrjis2mefjn486mrl2b69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

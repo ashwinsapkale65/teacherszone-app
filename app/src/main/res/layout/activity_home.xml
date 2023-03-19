@@ -1,0 +1,111 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:padding="16dp"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:cardBackgroundColor="@color/purple_200">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="200dp"
+            android:text="WELCOME TO DASHBOARD"
+            android:textColor="@color/white"
+            android:textSize="25dp"></TextView>
+
+        <Button
+            android:id="@+id/student"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/ic_launcher_background"
+            android:onClick="process"
+            android:text="Add Students"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+
+            />
+
+        <Button
+            android:id="@+id/studentinfo"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/ic_launcher_background"
+            android:onClick="viewinfo"
+            android:text="View/Delete Students"
+            android:textColor="@android:color/black"
+
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/studentattendence"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="160dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/ic_launcher_background"
+            android:onClick="attend"
+            android:text="Mark Attendence"
+            android:textColor="@android:color/black"
+
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/viewattendence"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/ic_launcher_background"
+            android:onClick="viewattendence"
+            android:text="View Attendence Report"
+            android:textColor="@android:color/black"
+
+            android:textSize="16sp" />
+
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/rounded"
+            android:text="Logout"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By ASHWIN SAPKALE"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="275dp"
+            android:layout_gravity="center"></TextView>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
